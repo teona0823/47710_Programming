@@ -1,13 +1,13 @@
-# Programming (47710) - Assignment
-## Project Goal
+# 💻 Programming (47710) - Assignment
+## 🎯 Project Goal
 Implementing Tic-Tac-Toe Game With C language.
 
-## Period
+## 🕰️ Period
 2023 Fall Semester
 
 Nov. 15th. 2023 (Wed) ~ Dec. 5th. 2023 (Tue)
 
-## Requirements
+## ✔️ Requirements
 - Get the console size: ```GetConsoleScreenBufferInfo()```
 - Change console font color: ```SetConsoleTextAttribute()```
 - The input value is a value from 1 to 9, and the row and column can be known using the / and % operations.
@@ -17,7 +17,7 @@ Nov. 15th. 2023 (Wed) ~ Dec. 5th. 2023 (Tue)
 - **Minimax Algorithm**
 - Step-by-step AI level phase
 
-## Functions
+## ⚙️ Functions
 ### 1. Select Difficulty
 When you enter the game, you can select AI's difficulty ((1) Easy / (2) Normal / (3) Hard)
 
@@ -33,7 +33,7 @@ You can choose whether play first or play second.
 ### 3. Win/Lose Record
 Your win/lose/draw record will be placed in the main menu. (Regardless of the difficulty)
 
-## Minimax Algorithm
+## 🤖 Minimax Algorithm
 This is the most important part of the assignment.
 
 The name of the algorithm is a product of two words: minimize and maximize. That is, minimize the payoff for the opponent, maximize the payoff for yourself. If a sequence of moves leads to a victory, its payoff is evaluated at +10 points. If it leads to a loss, the payoff is -10. If a sequence ultimately results in a draw, the payoff it brings to the table is 0.
